@@ -20,19 +20,19 @@
 	printf("średnia: %.3f\n", ((double)a+(double)b+(double)c+(double)d)/(double)4);
 
 
-	if((a<b)&&(a<c)&&(a<d))
+	if((a<=b)&&(a<=c)&&(a<=d))
 {
 	printf("najmniejsza liczba do kwadratu równa się %d\n", a*a); 
 }
-	if((b<a)&&(b<c)&&(b<d))
+	if((b<=a)&&(b<=c)&&(b<=d))
 {
 	printf("najmniejsza liczba do kwadratu równa się %d\n", b*b); 
 }
-	if((c<a)&&(c<b)&&(c<d))
+	if((c<=a)&&(c<=b)&&(c<=d))
 {
 	printf("najmniejsza liczba do kwadratu równa się %d\n", c*c); 
 }
-	if((d<a)&&(d<b)&&(d<c))
+	if((d<=a)&&(d<=b)&&(d<=c))
 {
 	printf("najmniejsz liczba do kwadratu równa się %d\n", d*d);
 }
